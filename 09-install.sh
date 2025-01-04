@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=${id -u}
+USERID=$(id -u)
 
 #check user is root ot not
 
