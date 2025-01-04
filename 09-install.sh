@@ -4,7 +4,7 @@ USERID=$(id -u)
 
 #check user is root ot not
 
-if [ $USERID -ne 0]; then
+if [ $USERID -ne 0 ]; then
      echo "user is not a root and installation abort"
      exit 1
 fi
