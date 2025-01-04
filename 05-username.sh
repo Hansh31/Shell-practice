@@ -2,4 +2,7 @@
 
 
 echo -n "Enter Username : "
-read USERNAME
+read -s USERNAME
+
+echo -n "Enter Password : "
+read -s PASSWORD
