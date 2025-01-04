@@ -8,4 +8,6 @@ Hello () {
 
 }
 echo "how are you : $1"
+echo "number of args : $#"
+echo "all args are : $@"
 Hello $1
